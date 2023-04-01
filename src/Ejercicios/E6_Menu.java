@@ -16,6 +16,7 @@ public class E6_Menu {
         Scanner leer = new Scanner(System.in);
         int n1;
         int n2;
+                
         int sol=1;
         String resp="a";
         String salir="s";
@@ -50,11 +51,11 @@ public class E6_Menu {
                 case 5:
                     System.out.println("¿Está seguro que desea salir del programa S/N?");
                     resp = leer.next();
-                    if (resp.equalsIgnoreCase("s")){
+                   /* if (resp.equalsIgnoreCase("s")){
                         break;  
                     }else{
                         continue;
-                    }    
+                    } */   
             }
             sol=(salir.compareTo(resp));//si resp=salir me da 0
            
